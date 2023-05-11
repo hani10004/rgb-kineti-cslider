@@ -1,0 +1,35 @@
+*{
+    margin: 0;padding: 0;
+}
+html{
+    background-color: #83f08f;
+}
+
+section{
+position: relative;
+height: 100vh;
+}
+section .rgb{
+    position: absolute;
+    left: 400px;
+    height: 200px;
+    top: 250px;
+    width: 300px;
+}
+#rgbKineticSlider canvas{
+    position: absolute;
+
+}
+
+nav .main-nav{
+    position: absolute;
+    color: #ffffff;
+    top: 50%;
+}
+nav .prev{
+    left: 30%;
+
+ }
+nav .next{
+right: 30%;
+ }
