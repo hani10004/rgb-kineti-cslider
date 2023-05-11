@@ -12,9 +12,10 @@ height: 100vh;
 section .rgb{
     position: absolute;
     left: 400px;
-    height: 200px;
     top: 250px;
+    
     width: 300px;
+    height: 200px;
 }
 #rgbKineticSlider canvas{
     position: absolute;
@@ -27,9 +28,9 @@ nav .main-nav{
     top: 50%;
 }
 nav .prev{
-    left: 30%;
+    left: 0;
 
  }
 nav .next{
-right: 30%;
+right: 0;
  }

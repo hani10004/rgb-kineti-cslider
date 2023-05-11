@@ -14,17 +14,15 @@
   <section>
     <div class="rgb">
       <div id="rgbKineticSlider" class="rgbKineticSlider"></div>
-    </div>
-  </section>
- 
-
-  <!-- slider nav -->
+       <!-- slider nav -->
   <nav>
     <a href="#" class="main-nav prev" data-nav="previous"> &lsaquo; Prev <span></span></a>
-    <a href="#" class="main-nav next" data-nav="next">	Next &rsaquo;<span></span></a>
+    <a href="#" class="main-nav next" data-nav="next"> Next &rsaquo;<span></span></a>
   </nav>
 
+  </section>
 
+  </div>
 
 
 
@@ -60,7 +58,7 @@
 
       // displacement images sources
       backgroundDisplacementSprite: 'imgs/displacement/6.jpg', // slide displacement image 
-      cursorDisplacementSprite:  'imgs/displacement/3.jpg',// cursor displacement image
+      cursorDisplacementSprite: 'imgs/displacement/3.jpg', // cursor displacement image
 
       // cursor displacement effect 
       cursorImgEffect: true, // enable cursor effect
@@ -115,11 +113,10 @@
 
   <script>
     // setInterval 
-    setInterval(function(){
+    setInterval(function () {
       $('nav .next').click();
-    
-    },4000) //4초마다 할일
-  
+
+    }, 4000) //4초마다 할일
   </script>
 
 </body>
